@@ -1,13 +1,16 @@
 package com.storerush.app;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.provider.MediaStore;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +25,19 @@ public class MainActivity extends AppCompatActivity {
         Button storeBtn = (Button)findViewById(R.id.storeBtn);
         Button memberBtn = (Button)findViewById(R.id.memberBtn);
 
+        storeBtn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(), StorePage.class);
+                startActivity(i);
+            }
+        });
+
+        memberBtn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(), MemberPage.class);
+                startActivity(i);
+            }
+        });
     }
+
 }
