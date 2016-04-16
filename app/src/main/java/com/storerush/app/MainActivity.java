@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         ActionBar bar = getSupportActionBar();
         bar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         bar.setCustomView(R.layout.actionbar);
-        bar.setBackgroundDrawable(new ColorDrawable(Color.WHITE));
+//        bar.setBackgroundDrawable(new ColorDrawable(Color.WHITE));
+
+
     }
 }
