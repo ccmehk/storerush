@@ -5,6 +5,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         bar.setCustomView(R.layout.actionbar);
 //        bar.setBackgroundDrawable(new ColorDrawable(Color.WHITE));
 
+        Button storeBtn = (Button)findViewById(R.id.storeBtn);
+        Button memberBtn = (Button)findViewById(R.id.memberBtn);
 
     }
 }

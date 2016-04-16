@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StoreRush</string>
+    <string name="app_desc">Tic Toc. Time is running out</string>
+
+    <string name="login_button_store">Store</string>
+    <string name="login_button_member">Member</string>
 </resources>
