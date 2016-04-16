@@ -19,7 +19,10 @@
         </activity>
         <activity android:name=".StorePage" />
         <activity android:name=".MemberPage" />
-        <activity android:name=".ProductPage"></activity>
+        <activity android:name=".ProductPage"/>
+        <activity android:name=".StoreInfo"/>
+        <activity android:name=".ProductListActivity"/>
+        <activity android:name=".UploadProductInfo"/>
     </application>
 
 </manifest>

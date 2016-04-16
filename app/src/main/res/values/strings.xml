@@ -4,4 +4,12 @@
 
     <string name="login_button_store">Store</string>
     <string name="login_button_member">Member</string>
+
+
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="store1">7-11(Kowloon)</string>
+    <string name="store2">HKUST Park n Shop</string>
+    <string name="store_setting_1">Upload Store Image</string>
+    <string name="store_setting_2">Update Store Information</string>
+    <string name="store_setting_3">Update Product Information</string>
 </resources>
