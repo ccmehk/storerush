@@ -6,12 +6,12 @@ import android.graphics.drawable.Drawable;
  * Created by PHS on 2016-04-16.
  */
 public class ProductListItem {
-    private Drawable image;
-    private String name;
-    private int normal_price;
-    private int sale_price;
-    private int end_time;
-    private int quantity;
+    public Drawable image;
+    public String name;
+    public int normal_price;
+    public int sale_price;
+    public int end_time;
+    public int quantity;
 
     public Drawable getImage(){return image; }
     public String getName(){return name;}

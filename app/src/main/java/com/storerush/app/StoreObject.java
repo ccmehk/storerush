@@ -1,5 +1,7 @@
 package com.storerush.app;
 
+import java.util.ArrayList;
+
 /**
  * Created by Nathan on 4/16/2016.
  */
@@ -9,6 +11,7 @@ public class StoreObject {
     private String mLoc;
     private String mDis;
     private String mDesc;
+    public ArrayList<ProductListItem> productList;
 
 
     StoreObject (int img, String name, String loc, String dis, String desc){
@@ -17,6 +20,15 @@ public class StoreObject {
         mLoc = loc;
         mDis = dis;
         mDesc = desc;
+    }
+
+    StoreObject (int img, String name, String loc, String dis, String desc, ArrayList<ProductListItem> productList){
+        mImage = img;
+        mName = name;
+        mLoc = loc;
+        mDis = dis;
+        mDesc = desc;
+        this.productList = productList;
 
     }
 

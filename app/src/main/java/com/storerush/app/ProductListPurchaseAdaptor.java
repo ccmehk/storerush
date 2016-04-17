@@ -14,12 +14,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ProductListAdaptor extends BaseAdapter {
+public class ProductListPurchaseAdaptor extends BaseAdapter {
     // Adapter에 추가된 데이터를 저장하기 위한 ArrayList
     private ArrayList<ProductListItem> listViewItemList = new ArrayList<ProductListItem>() ;
 
     // ListViewAdapter의 생성자
-    public ProductListAdaptor() {
+    public ProductListPurchaseAdaptor() {
 
     }
 
@@ -38,7 +38,7 @@ public class ProductListAdaptor extends BaseAdapter {
         // "listview_item" Layout을 inflate하여 convertView 참조 획득.
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.product_item, parent, false);
+            convertView = inflater.inflate(R.layout.product_item_with_purchase, parent, false);
         }
 
         // 화면에 표시될 View(Layout이 inflate된)으로부터 위젯에 대한 참조 획득

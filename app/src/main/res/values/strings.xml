@@ -12,4 +12,9 @@
     <string name="store_setting_1">Upload Store Image</string>
     <string name="store_setting_2">Update Store Information</string>
     <string name="store_setting_3">Update Product Information</string>
+
+    <string name="dialog_message">The product is %1$s. \nThe price is $%2$d. \n</string>
+    <string name="dialog_title">Confirm to pay for the product</string>
+    <string name="fire">Confirm</string>
+    <string name="cancel">Cancel</string>
 </resources>
